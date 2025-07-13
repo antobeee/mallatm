@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Malla Curricular – Laboratorio Clínico</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header><h1>Plan de Estudios – Laboratorio Clínico</h1></header>
+  <main id="malla">
+
+    <!-- Nivel 1 -->
+    <section class="nivel" data-nivel="1">
+      <h2>Nivel 1</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="COM_ORAL1">COMUNICACIÓN ORAL Y ESCRITA I</div>
+        <div class="asig" data-codigo="IDIOMA_EXTR1">IDIOMA EXTRANJERO I</div>
+        <div class="asig" data-codigo="MORFOLOGIA1">MORFOLOGÍA I</div>
+        <div class="asig" data-codigo="QUIMICA1">QUÍMICA GENERAL</div>
+        <div class="asig" data-codigo="MAT_BIO1">MATEMÁTICAS PARA CIENCIAS BIOMÉDICAS I</div>
+        <div class="asig" data-codigo="EST_FISIO1">ESTRUCTURA Y FISIOLOGÍA CELULAR I</div>
+        <div class="asig" data-codigo="BASES_LAB1">BASES PARA EL LABORATORIO</div>
+      </div>
+    </section>
+
+    <!-- Nivel 2 -->
+    <section class="nivel" data-nivel="2">
+      <h2>Nivel 2</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="COM_ORAL2" data-pr="COM_ORAL1">COMUNICACIÓN ORAL Y ESCRITA II</div>
+        <div class="asig" data-codigo="IDIOMA_EXTR2" data-pr="IDIOMA_EXTR1">IDIOMA EXTRANJERO II</div>
+        <div class="asig" data-codigo="MORFO2" data-pr="MORFOLOGIA1">MORFOFISIOLOGÍA I</div>
+        <div class="asig" data-codigo="QUIMICA2" data-pr="QUIMICA1">QUÍMICA ORGÁNICA</div>
+        <div class="asig" data-codigo="MAT_BIO2" data-pr="MAT_BIO1">MATEMÁTICAS PARA CIENCIAS BIOMÉDICAS II</div>
+        <div class="asig" data-codigo="EST_FISIO2" data-pr="EST_FISIO1">ESTRUCTURA Y FISIOLOGÍA CELULAR II</div>
+        <div class="asig" data-codigo="SALUD_PUB2" data-pr="BASES_LAB1">SALUD PÚBLICA I</div>
+      </div>
+    </section>
+
+    <!-- Nivel 3 -->
+    <section class="nivel" data-nivel="3">
+      <h2>Nivel 3</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="COM_ORAL3" data-pr="COM_ORAL2">COMUNICACIÓN ORAL Y ESCRITA III</div>
+        <div class="asig" data-codigo="BIOESTADISTICA" data-pr="MAT_BIO2">BIOESTADÍSTICA</div>
+        <div class="asig" data-codigo="INMUNOLOGIA" data-pr="MORFO2">INMUNOLOGÍA</div>
+        <div class="asig" data-codigo="DIAGNOSTICO_MOLECULAR" data-pr="QUIMICA2">DIAGNÓSTICO MOLECULAR</div>
+        <div class="asig" data-codigo="SEM_INTEGRADO" data-pr="INMUNOLOGIA">SEMINARIO INTEGRADO</div>
+      </div>
+    </section>
+
+    <!-- Nivel 4 -->
+    <section class="nivel" data-nivel="4">
+      <h2>Nivel 4</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="PRELABORATORIO">PREPARACIÓN BASICA PARA EL LABORATORIO CLÍNICO</div>
+        <div class="asig" data-codigo="HEMATOLOGIA">HEMATOLOGÍA CLÍNICA</div>
+        <div class="asig" data-codigo="MICROBIOLOGIA">MICROBIOLOGÍA CLÍNICA</div>
+        <div class="asig" data-codigo="PARASITOLOGIA">PARASITOLOGÍA</div>
+        <div class="asig" data-codigo="GESTION_LABORATORIO">GESTIÓN EN LABORATORIO CLÍNICO</div>
+      </div>
+    </section>
+
+    <!-- Nivel 5 -->
+    <section class="nivel" data-nivel="5">
+      <h2>Nivel 5</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="RESP_SOCIAL" data-pr="HEMATOLOGIA">RESPONSABILIDAD SOCIAL</div>
+        <div class="asig" data-codigo="ONCOLOGIA" data-pr="MICROBIOLOGIA">ONCOLOGÍA CLÍNICA</div>
+        <div class="asig" data-codigo="ETICA_SOCIAL" data-pr="PARASITOLOGIA">ÉTICA Y RESPONSABILIDAD SOCIAL</div>
+      </div>
+    </section>
+
+    <!-- Nivel 6 -->
+    <section class="nivel" data-nivel="6">
+      <h2>Nivel 6</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="MICROCLINICA" data-pr="MICROBIOLOGIA">MICROBIOLOGÍA CLÍNICA II</div>
+        <div class="asig" data-codigo="GENETICA" data-pr="INMUNOLOGIA">GENÉTICA APLICADA A LA MEDICINA</div>
+        <div class="asig" data-codigo="HORMONAS" data-pr="ONCOLOGIA">HORMONAS Y METABOLISMO</div>
+      </div>
+    </section>
+
+    <!-- Nivel 7 -->
+    <section class="nivel" data-nivel="7">
+      <h2>Nivel 7</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="SEM_PROFESIONAL">SEMINARIO PROFESIONAL</div>
+        <div class="asig" data-codigo="BLOQUE_2" data-pr="GENETICA">BLOQUE 2 DE INMUNOLOGÍA</div>
+      </div>
+    </section>
+
+    <!-- Nivel 8 -->
+    <section class="nivel" data-nivel="8">
+      <h2>Nivel 8</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="INMUNOLOGIA">INMUNOLOGÍA AVANZADA</div>
+        <div class="asig" data-codigo="MEDICINA_TRANSFUSIONAL">MEDICINA TRANSFUSIONAL</div>
+      </div>
+    </section>
+
+    <!-- Nivel 9 -->
+    <section class="nivel" data-nivel="9">
+      <h2>Nivel 9</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="INTERNSHIP">INTERNSHIP CLÍNICO</div>
+        <div class="asig" data-codigo="GESTION_LABORATORIO_2">GESTIÓN DE LABORATORIOS II</div>
+      </div>
+    </section>
+
+    <!-- Nivel 10 -->
+    <section class="nivel" data-nivel="10">
+      <h2>Nivel 10</h2>
+      <div class="asignaturas">
+        <div class="asig" data-codigo="DEPORTES">DEPORTES Y CUIDADO FÍSICO</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal para detalles -->
+  <div id="modal" hidden>
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="mod-title"></h3>
+      <p id="mod-prereq"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
